@@ -8,7 +8,7 @@
 import UIKit
 
 final class NMButton: UIButton {
-    
+
     override var isHighlighted: Bool {
         didSet {
             startPulseAnimation()
